@@ -16,7 +16,7 @@ const opening = ()=>{
         document.getElementById("date").innerHTML = time.toDateString()
         document.getElementById("time").innerHTML = time.toLocaleTimeString()
         // console.log(time.toLocaleTimeString())
-        if(time.toLocaleTimeString() == "2:26:00 PM" || time.getDate()>= "15" ){
+        if(time.toLocaleTimeString() == "3:15:00 PM" || time.getDate()>= "15" ){
             clearInterval(set)
             open()
         }
